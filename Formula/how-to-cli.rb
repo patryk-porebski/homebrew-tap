@@ -10,14 +10,12 @@ class HowToCli < Formula
   depends_on "python@3.11"
 
   def install
-    virtualenv_create(libexec, "python3.11")
+    # Create virtualenv in libexec
+    venv = virtualenv_create(libexec, "python3.11")
     
-    # Install the package and all its dependencies
-    system libexec/"bin/pip", "install", "--no-binary", ":all:", 
-           "--ignore-installed", buildpath
-    
-    # Create wrapper script
-    (bin/"how").write_env_script libexec/"bin/how", PATH: "#{libexec}/bin:$PATH"
+    # Install the package using the standard method
+    # This will use pip to install from the current directory
+    venv.pip_install_and_link buildpath
 
     # Install shell completions
     bash_completion.install "completions/how_completion.bash" => "how"
