@@ -11,11 +11,7 @@ class HowToCli < Formula
 
   def install
     # Create virtualenv in libexec
-    venv = virtualenv_create(libexec, "python3.11")
-    
-    # Install the package using the standard method
-    # This will use pip to install from the current directory
-    venv.pip_install_and_link buildpath
+    virtualenv_install_with_resources
 
     # Install shell completions
     bash_completion.install "completions/how_completion.bash" => "how"
