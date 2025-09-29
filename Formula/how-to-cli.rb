@@ -3,8 +3,8 @@ class HowToCli < Formula
 
   desc "Ask LLMs how to do anything with terminal commands"
   homepage "https://github.com/patryk-porebski/how-to-cli"
-  url "https://github.com/patryk-porebski/how-to-cli/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "a054180fc6caa63a3af6f4416a2f5aa3d4d3b219a96c124beef24e1863afbf97"
+  url "https://github.com/patryk-porebski/how-to-cli/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "7f710fac9a6f17d7932aebf5cc1b2b1774f782680c1465fb0cd672737ff3b0d4"
   license "MIT"
 
   depends_on "python@3.11"
