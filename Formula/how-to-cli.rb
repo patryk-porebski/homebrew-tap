@@ -25,8 +25,8 @@ class HowToCli < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/b3/01/c954e134dc440ab5f96952fe52b4fdc64225530320a910473c1fe270d9aa/rich-13.7.0.tar.gz"
-    sha256 "3a91a894c4d4d4064a2f2fbdfee7de95dc2a1cbf179c1e9ac4f27dc421adabfa"
+    url "https://files.pythonhosted.org/packages/a7/ec/4a7d80728bd429f7c0d4d51245287158a1516315cadbb146012439403a9d/rich-13.7.0.tar.gz"
+    sha256 "5cb5123b5cf9ee70584244246816e9114227e0b98ad9176eede6ad54bf5403fa"
   end
 
   resource "colorama" do
@@ -35,8 +35,8 @@ class HowToCli < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/63/42/ea8c9726e5ee5ff0731978aaf7cd5fa16674cf549c46279b279d7167c2b4/keyring-24.3.0.tar.gz"
-    sha256 "3936e4f3ee053ea6d97cb5a6e89c23f63e62816b2a0b65bbb68e5fe78f68f714"
+    url "https://files.pythonhosted.org/packages/69/cd/889c6569a7e5e9524bc1e423fd2badd967c4a5dcd670c04c2eff92a9d397/keyring-24.3.0.tar.gz"
+    sha256 "e730ecffd309658a08ee82535a3b5ec4b4c8669a9be11efb66249d8e0aeb9a25"
   end
 
   resource "pyperclip" do
