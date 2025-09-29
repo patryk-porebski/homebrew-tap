@@ -16,7 +16,7 @@ class HowToCli < Formula
 
   resource "requests" do
     url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
-    sha256 "942c5a758f98d5e8f5e3e0e7e8d4d8c1a3c4f9d9e6c7c19b1d5b6e3a4c8c5b6e"
+    sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
   end
 
   resource "pyyaml" do
@@ -26,7 +26,7 @@ class HowToCli < Formula
 
   resource "rich" do
     url "https://files.pythonhosted.org/packages/b3/01/c954e134dc440ab5f96952fe52b4fdc64225530320a910473c1fe270d9aa/rich-13.7.0.tar.gz"
-    sha256 "5cb5123b5cf9ee70584244246816e9114227e0b98ad9176eede6ad54bf5403fa"
+    sha256 "3a91a894c4d4d4064a2f2fbdfee7de95dc2a1cbf179c1e9ac4f27dc421adabfa"
   end
 
   resource "colorama" do
@@ -35,8 +35,8 @@ class HowToCli < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/63/95/357c7b5b97e3b71053d5fcb5c0c7e1661c3c6b7c8c8b1e3c9c3e5c3e6e7/keyring-24.3.0.tar.gz"
-    sha256 "e730ecffd309658a08ee82535a3b5ec4b4c8b0c3c9b5e9e0c6e6f6e6c6e6c6e6"
+    url "https://files.pythonhosted.org/packages/63/42/ea8c9726e5ee5ff0731978aaf7cd5fa16674cf549c46279b279d7167c2b4/keyring-24.3.0.tar.gz"
+    sha256 "3936e4f3ee053ea6d97cb5a6e89c23f63e62816b2a0b65bbb68e5fe78f68f714"
   end
 
   resource "pyperclip" do
